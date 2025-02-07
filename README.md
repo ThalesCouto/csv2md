@@ -14,7 +14,7 @@ Clone este repositório ou baixe o script manualmente.
 Execute o script com os seguintes parâmetros:
 
 ```sh
-python script.py -i <arquivo_entrada.csv> [opções]
+python csv2md.py -i <arquivo_entrada.csv> [opções]
 ```
 
 ### Parâmetros
@@ -31,26 +31,26 @@ python script.py -i <arquivo_entrada.csv> [opções]
 
 1. Converter um CSV para Markdown e exibir a saída no terminal:
    ```sh
-   python script.py -i dados.csv
+   python csv2md.py -i dados.csv
    ```
 
 2. Converter um CSV para Markdown e salvar em um arquivo:
    ```sh
-   python script.py -i dados.csv -o tabela.md
+   python csv2md.py -i dados.csv -o tabela.md
    ```
 
 3. Filtrar colunas específicas:
    ```sh
-   python script.py -i dados.csv -fc "c1,c2"
+   python csv2md.py -i dados.csv -fc "c1,c2"
    ```
 
 4. Remover colunas específicas:
    ```sh
-   python script.py -i dados.csv -r "Column"
+   python csv2md.py -i dados.csv -r "Column"
    ```
 
 6. Remover todas as linhas que contenham uma string específica:
    ```sh
-   python script.py -i dados.csv -fr "excluir_essa_linha"
+   python csv2md.py -i dados.csv -fr "excluir_essa_linha"
    ```
 
