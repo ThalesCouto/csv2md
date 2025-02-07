@@ -53,4 +53,11 @@ python csv2md.py -i <arquivo_entrada.csv> [opções]
    ```sh
    python csv2md.py -i dados.csv -fr "excluir_essa_linha"
    ```
+## GOPHISH
 
+Este script foi feito para processar a saída do gophish, portanto existe um parâmetro --gophish, que deixa a coluna "Status" mais expressiva na tabela.
+
+- Exemplo
+```sh
+python csv2md.py-i gophish_results.csv -o results.md -fc "email,status" -fr "Email Sent" --gophish
+```
