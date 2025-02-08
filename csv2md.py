@@ -76,12 +76,12 @@ if __name__ == "__main__":
         description="Converte um arquivo CSV para uma tabela Markdown.",
         epilog="""
 Exemplos de uso:
-  python script.py -i dados.csv -o tabela.md
-  python script.py -i dados.csv -fc "Nome,Idade" -o tabela.md
-  python script.py -i dados.csv -r "Endereço" -o tabela.md
-  python script.py -i dados.csv -fc "Nome,Idade" -r "Endereço"
-  python script.py -i dados.csv -fr "excluir_essa_string"
-  python script.py -i dados.csv --gophish -o tabela.md
+  python csv2md.py -i dados.csv -o tabela.md
+  python csv2md.py -i dados.csv -fc "Nome,Idade" -o tabela.md
+  python csv2md.py -i dados.csv -r "Endereço" -o tabela.md
+  python csv2md.py -i dados.csv -fc "Nome,Idade" -r "Endereço"
+  python csv2md.py -i dados.csv -fr "excluir_essa_string"
+  python csv2md.py -i dados.csv --gophish -o tabela.md
         """,
         formatter_class=argparse.RawTextHelpFormatter
     )
