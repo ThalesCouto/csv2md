@@ -45,8 +45,8 @@ def csv_to_markdown(input_file, output_file, filter_columns, remove_columns, fil
             for row in filtered_rows[1:]:
                 status_value = row[status_index]
                 row.pop(status_index)  # Removendo o valor da coluna 'status'
-                row.append('☑' if status_value == 'Clicked Link' else '☐')  # Clicou
-                row.append('☑' if status_value == 'Submitted Data' else '☐')  # Preencheu
+                row.append('✅' if status_value == 'Clicked Link' else '❌')  # Clicou
+                row.append('✅' if status_value == 'Submitted Data' else '❌')  # Preencheu
 
 
 
