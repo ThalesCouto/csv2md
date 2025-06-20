@@ -59,5 +59,5 @@ Este script foi feito para processar a saída do gophish, portanto existe um par
 
 - Exemplo
 ```sh
-python csv2md.py-i gophish_results.csv -o results.md -fc "email,status" -fr "Email Sent" --gophish
+python csv2md.py -i gophish_results.csv -o results.md -fc "email,status" -fr "Email Sent" --gophish
 ```
